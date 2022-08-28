@@ -1,0 +1,13 @@
+@import './utils/_variables';
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: $honeyBrew;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

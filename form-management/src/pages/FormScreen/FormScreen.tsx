@@ -1,11 +1,11 @@
-import Form from "../../Components/Form";
+import FormWrapper from "./FormWrapper";
 
 const FormEdit = ({ params }: { params: { id: number } }) => {
-  return <Form id={params.id} />;
+  return <FormWrapper id={params.id} />;
 };
 
 const FormCreate = () => {
-  return <Form />;
+  return <FormWrapper />;
 };
 
 function FormScreen() {
